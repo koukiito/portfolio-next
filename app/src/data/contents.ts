@@ -249,7 +249,7 @@ export const contents = {
       shortDescription:
         "レーシングシミュレータと連携してダッシュボードを表示するモバイルアプリケーション",
       fullDescription:
-        "レーシングシミュレータとUDPを利用して通信し、車両のステータスを確認するダッシュボードを表示するモバイルアプリケーションです。フロントエンドにはFlutterを採用し、バックエンドにはFirebaseを使用しています。初期バージョンはSwiftで開発しましたが、マルチプラットフォーム対応のためFlutterでリプレースしました。",
+        "レーシングシミュレータとUDPを利用して通信し、車両のステータスを確認するダッシュボードを表示するモバイルアプリケーションです。RevenueCatを使用してサブスクリプションを実装しています。",
       technologies: ["Flutter", "RevenueCat", "UDP"],
       features: ["ダッシュボード", "サブスクリプション"],
       challenges:

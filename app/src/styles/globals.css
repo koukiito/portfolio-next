@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes growWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animate-grow-width {
+  animation: growWidth 1s ease-out forwards;
+}

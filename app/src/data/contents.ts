@@ -96,7 +96,7 @@ export const contents = {
         color: "#3178C6",
         categories: ["Language"],
         description: "Next.js, Express.jsで使用",
-        projects: [4],
+        projects: [4, 11],
       },
       {
         name: "Python",
@@ -120,7 +120,7 @@ export const contents = {
         color: "#4479A1",
         categories: ["Database"],
         description: "各種アプリケーションのDBとして使用",
-        projects: [4],
+        projects: [4, 11],
       },
       {
         name: "Docker",
@@ -128,7 +128,7 @@ export const contents = {
         color: "#2496ED",
         categories: ["Containerization"],
         description: "各種アプリケーションの環境として利用",
-        projects: [4],
+        projects: [4, 11],
       },
       {
         name: "Unity",
@@ -161,7 +161,7 @@ export const contents = {
         color: "#000000",
         categories: ["Backend Framework"],
         description: "APIサーバの作成に使用",
-        projects: [4],
+        projects: [4, 11],
       },
       {
         name: "ServiceNow",
@@ -177,7 +177,7 @@ export const contents = {
         color: "#FCC624",
         categories: ["OS"],
         description: "サーバの構築に使用",
-        projects: [4],
+        projects: [4, 11],
       },
       {
         name: "Swift",
@@ -186,6 +186,14 @@ export const contents = {
         categories: ["Language"],
         description: "iOSアプリの開発に使用",
         projects: [1],
+      },
+      {
+        name: "C#",
+        icon: IconsSi.SiCsharp,
+        color: "#239120",
+        categories: ["Language"],
+        description: "Unityでの開発に使用",
+        projects: [10],
       },
       {
         name: "JavaScirpt",
@@ -330,6 +338,41 @@ export const contents = {
         "機械学習を実務へ応用。車両種別ごと、方向ごとに分類して車両画像を出力しすることで証拠を保持。",
       imageUrl: "/images/projects/traffic_counter.png",
       projectUrl: "https://zenn.dev/koukiito/articles/123e4792f87589",
+    },
+    {
+      id: 10,
+      title: "Unity 3D Stage",
+      shortDescription: "Unityで作成した3Dステージ MMD: © 2016 cover corp.",
+      fullDescription:
+        "Unity上で3Dステージを作成。ArtNet経由でDMX信号を受信し、各種MAシステムから照明を制御。MMD, モーション, 楽曲 © 2016 cover corp.",
+      technologies: ["Unity", "ArtNet", "DMX"],
+      features: [
+        "3Dステージ",
+        "DMXライティング制御",
+        "マルチカメラスイッチング",
+      ],
+      challenges:
+        "ステージ、照明、カメラを実装し3Dライブエンターテイメントを制作。照明、カメラ操作も自身で行いました。",
+      imageUrl: "/images/projects/unity_3d_stage.png",
+      youtubeVideoId: "MCNy--ZhKhU",
+    },
+    {
+      id: 11,
+      title: "Tuning the backend Contest 2024",
+      shortDescription:
+        'Backendのパフォーマンスチューニングコンテスト"Tuning the backend Contest 2024 in Hiroshima"に参加し二位を獲得',
+      fullDescription:
+        "Backendをチューニングしパフォーマンスを競うコンテストに参加し、三人チームで二位を獲得しました。",
+      technologies: ["Express.js", "MySQL", "Docker", "TypeScript", "Azure"],
+      features: [
+        "パフォーマンスチューニング",
+        "データベース最適化",
+        "高トラフィック対応",
+      ],
+      challenges:
+        "できるだけ多くのトラフィックを処理することができるようパフォーマンスチューニングを行いました。",
+      imageUrl: "/images/projects/tuning_contest_2024_in_hiroshima.png",
+      githubUrl: "https://github.com/koukiito/TuningContest2024inHiroshima",
     },
   ],
   footer: {

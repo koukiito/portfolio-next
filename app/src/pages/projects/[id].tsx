@@ -16,18 +16,35 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project }) => {
         <h1 className="text-4xl font-bold mb-6 animate-fade-in">
           {project.title}
         </h1>
-        <div className="mb-8 relative h-64 md:h-96">
+        <div className="mb-8 relative h-64 md:h-96 bg-gray-200 rounded-lg">
           <Image
             src={project.imageUrl}
             alt={project.title}
             layout="fill"
-            objectFit="cover"
+            objectFit="contain"
             className="rounded-lg"
           />
         </div>
         <p className="text-xl mb-6 animate-slide-in">
           {project.fullDescription}
         </p>
+
+        {project.youtubeVideoId && (
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">Project Demo</h2>
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "56.25%" }}
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/${project.youtubeVideoId}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute top-0 left-0 w-full h-full"
+              ></iframe>
+            </div>
+          </div>
+        )}
 
         <h2 className="text-2xl font-semibold mb-4">Technologies Used</h2>
         <div className="flex flex-wrap gap-2 mb-6">

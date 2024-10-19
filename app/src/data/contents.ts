@@ -40,8 +40,8 @@ export const contents = {
     positions: [
       {
         title:
-          "Google Developer Student Clubs Hiroshima University Founder / Lead",
-        date: "09/2023 - Present",
+          "Google Developer Student Clubs Hiroshima University Founder / Ex-Lead",
+        date: "09/2023 - 08/2024",
       },
       {
         title:
@@ -373,6 +373,24 @@ export const contents = {
         "できるだけ多くのトラフィックを処理することができるようパフォーマンスチューニングを行いました。",
       imageUrl: "/images/projects/tuning_contest_2024_in_hiroshima.png",
       githubUrl: "https://github.com/koukiito/TuningContest2024inHiroshima",
+    },
+    {
+      id: 12,
+      title: "Tuning the backend Contest 2024 Autumn",
+      shortDescription:
+        '"Tuning the backend Contest 2024 Autumn in Hiroshima"に参加し一位を獲得',
+      fullDescription:
+        "二回目の参加で、前回とは異なる三人チームで一位を獲得しました。",
+      technologies: ["Rust", "MySQL", "Docker", "NGINX", "Azure"],
+      features: [
+        "パフォーマンスチューニング",
+        "データベース最適化",
+        "高トラフィック対応",
+      ],
+      challenges:
+        "できるだけ多くのトラフィックを処理することができるようパフォーマンスチューニングを行いました。",
+      imageUrl: "/images/projects/tuning_contest_2024_autumn_in_hiroshima.png",
+      githubUrl: "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
     },
   ],
   footer: {

@@ -40,8 +40,8 @@ export const contents = {
     positions: [
       {
         title:
-          "Google Developer Student Clubs Hiroshima University Founder / Lead",
-        date: "09/2023 - Present",
+          "Google Developer Student Clubs Hiroshima University Founder / Ex-Lead",
+        date: "09/2023 - 08/2024",
       },
       {
         title:

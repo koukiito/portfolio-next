@@ -406,7 +406,8 @@ export const contents = {
       challenges:
         "できるだけ多くのトラフィックを処理することができるようパフォーマンスチューニングを行いました。",
       imageUrl: "/images/projects/tuning_contest_2024_autumn_in_hiroshima.png",
-      githubUrl: "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
+      githubUrl:
+        "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
     },
   ],
   footer: {

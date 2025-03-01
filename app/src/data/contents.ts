@@ -61,9 +61,9 @@ export const contents = {
         date: "04/2024",
       },
       {
-        name: "TOEIC Listening & Reading IP Test 800点 取得",
+        name: "TOEIC Listening & Reading IP Test 820点 取得",
         issuer: "",
-        date: "12/2023",
+        date: "12/2024",
       },
       {
         name: "基本情報技術者試験 合格",
@@ -99,6 +99,14 @@ export const contents = {
         projects: [4, 11],
       },
       {
+        name: "React",
+        icon: IconsSi.SiReact,
+        color: "#61DAFB",
+        categories: ["Frontend Framework"],
+        description: "フロントエンド開発で使用",
+        projects: [],
+      },
+      {
         name: "Python",
         icon: IconsSi.SiPython,
         color: "#3776AB",
@@ -129,6 +137,14 @@ export const contents = {
         categories: ["Containerization"],
         description: "各種アプリケーションの環境として利用",
         projects: [4, 11],
+      },
+      {
+        name: "GitHub Actions",
+        icon: IconsFa6.FaGithub,
+        color: "#181717",
+        categories: ["CI/CD"],
+        description: "Unit TestやVRT、Lint, Build等で使用",
+        projects: [],
       },
       {
         name: "Unity",
@@ -390,7 +406,8 @@ export const contents = {
       challenges:
         "できるだけ多くのトラフィックを処理することができるようパフォーマンスチューニングを行いました。",
       imageUrl: "/images/projects/tuning_contest_2024_autumn_in_hiroshima.png",
-      githubUrl: "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
+      githubUrl:
+        "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
     },
   ],
   footer: {

@@ -15,14 +15,16 @@ const Projects: React.FC = () => {
             style={{ animationDelay: `${index * 0.1}s` }}
           >
             <div className="relative h-48 bg-gray-200">
-              <Image
-                src={project.imageUrl}
-                alt={project.title}
-                layout="fill"
-                objectFit="contain"
-                blurDataURL={project.imageUrl}
-                placeholder="blur"
-              />
+              {project.imageUrl && (
+                <Image
+                  src={project.imageUrl}
+                  alt={project.title}
+                  layout="fill"
+                  objectFit="contain"
+                  blurDataURL={project.imageUrl}
+                  placeholder="blur"
+                />
+              )}
             </div>
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>

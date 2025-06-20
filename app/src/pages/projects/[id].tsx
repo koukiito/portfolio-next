@@ -17,13 +17,15 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project }) => {
           {project.title}
         </h1>
         <div className="mb-8 relative h-64 md:h-96 bg-gray-200 rounded-lg">
-          <Image
-            src={project.imageUrl}
-            alt={project.title}
-            layout="fill"
-            objectFit="contain"
-            className="rounded-lg"
-          />
+          {project.imageUrl && (
+            <Image
+              src={project.imageUrl}
+              alt={project.title}
+              layout="fill"
+              objectFit="contain"
+              className="rounded-lg"
+            />
+          )}
         </div>
         <p className="text-xl mb-6 animate-slide-in">
           {project.fullDescription}

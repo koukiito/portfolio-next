@@ -409,6 +409,17 @@ export const contents = {
       githubUrl:
         "https://github.com/koukiito/app-foxtrot-HiroshimaUniv-Tuning-2409",
     },
+    {
+      id: 13,
+      title: "Twitch 配信通知アプリ",
+      shortDescription: "Twitchの配信開始を通知するアプリケーション",
+      fullDescription:
+        "TwitchのAPIを用いて、配信開始時にWebhookを用いて通知するアプリケーション",
+      technologies: ["TypeScript", "Express.js"],
+      features: ["Twitch API", "Webhookでの連携"],
+      challenges:
+        "TwitchのAPIを用いて、配信開始時にWebhookを用いて通知するアプリケーション",
+    },
   ],
   footer: {
     copyright: "© 2024 Kouki Ito. All rights reserved.",

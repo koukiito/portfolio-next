@@ -297,6 +297,25 @@ export const contents = {
         "https://drive.google.com/file/d/1dKALEvT3wKnjSpBxEvzw_JOku5kzgzwT/view?usp=sharing",
     },
     {
+      id: 14,
+      title: "BLEを用いた混雑状況測定システム",
+      shortDescription: "BLEを用いた混雑状況測定システム",
+      fullDescription:
+        "BLE(Bluetooth Low Energy)スキャナを用いた混雑状況測定システムです。ESP32を用いたスキャナ、Flaskで作成したスキャナ用サーバ、Goで作成したバックエンドサーバ、Next.jsで作成したフロントエンドを使用しています。",
+      technologies: [
+        "ESP32",
+        "IoT",
+        "Flask",
+        "Go",
+        "TypeScript",
+        "Next.js",
+        "MySQL",
+      ],
+      features: ["混雑状況測定"],
+      challenges:
+        "学内機関でチーム開発を行い開発。ハードウェア、バックエンド、フロントエンドの各要素を担当",
+    },
+    {
       id: 4,
       title: "Carbon Calculator Hiroshima",
       shortDescription:
